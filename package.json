@@ -1,6 +1,6 @@
 {
   "name": "drumnickydrum-test-package",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "npm test package",
   "main": "build/main.js",
   "bin": "build/main.js",
