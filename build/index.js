@@ -1,1 +1,3 @@
-console.log('hello from build/index.js!');
+import "./main";
+console.log("hello from drumnickydrum-test-package");
+console.log("the cwd is: ", process.cwd());
