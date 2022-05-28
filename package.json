@@ -2,7 +2,7 @@
   "name": "drumnickydrum-test-package",
   "version": "1.0.3",
   "description": "npm test package",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
