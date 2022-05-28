@@ -2,10 +2,10 @@
   "name": "drumnickydrum-test-package",
   "version": "1.0.5",
   "description": "npm test package",
-  "main": "build/index.js",
+  "main": "build/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
-    "build": "swc index.ts src -d build"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,9 @@
   "devDependencies": {
     "@swc/cli": "^0.1.57",
     "@swc/core": "^1.2.194",
-    "@types/node": "^17.0.36"
+    "@types/node": "^17.0.36",
+    "swc-loader": "^0.2.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
   }
 }
