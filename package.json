@@ -3,6 +3,7 @@
   "version": "1.0.6",
   "description": "npm test package",
   "main": "build/main.js",
+  "bin": "build/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\"",
     "build": "webpack"
